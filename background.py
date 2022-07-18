@@ -5,7 +5,7 @@ class Background:
 
     def __init__(self,game_screen):
         """Initialize the game background"""
-        #
+        
         self.screen = game_screen.screen
         self.screen_rect = self.screen.get_rect()
 
